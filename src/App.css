@@ -15,6 +15,7 @@
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
+
 /* globals */
 body {
   padding-top: 66px;
@@ -52,7 +53,6 @@ h6 {
   font-weight: bold;
   margin-bottom: 1.5em;
 }
-
 .btn-primary {
   display: inline-block;
   text-decoration: none;
@@ -87,6 +87,7 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 /* end of globals */
+
 /* Navbar */
 .navbar {
   position: fixed;
@@ -131,7 +132,6 @@ h6 {
 .nav-links a:hover {
   color: var(--primaryColor);
 }
-
 .show-nav {
   height: 100px;
 }
@@ -155,6 +155,7 @@ h6 {
   }
 }
 /* end of navbar */
+
 /* Hero */
 .defaultHero,
 .roomsHero {
@@ -169,6 +170,7 @@ h6 {
   min-height: 60vh;
 }
 /* End of Hero */
+
 /* Banner */
 .banner {
   display: inline-block;
@@ -209,6 +211,7 @@ h6 {
   }
 }
 /* End of Banner */
+
 /* Title */
 .section-title {
   text-align: center;
@@ -252,6 +255,7 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
 }
 .services p {
   width: 80%;
@@ -263,15 +267,14 @@ h6 {
     max-width: 1170px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .services p {
     width: 100%;
   }
 }
 /*end of services */
-/* featured rooms */
 
+/* featured rooms */
 .featured-rooms {
   padding: 5rem 0;
 }
@@ -296,6 +299,7 @@ h6 {
   }
 }
 /* end pf featured rooms */
+
 /* room */
 .room {
   box-shadow: var(--lightShadow);
@@ -304,7 +308,6 @@ h6 {
 .room:hover {
   box-shadow: var(--darkShadow);
 }
-
 .img-container {
   position: relative;
 }
@@ -359,8 +362,8 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 /* end of room  */
-/* single room*/
 
+/* single room*/
 .single-room {
   padding: 5rem 0 0 0;
 }
@@ -398,7 +401,6 @@ h6 {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
-
 .info h6 {
   font-weight: 300;
 }
@@ -434,6 +436,7 @@ h6 {
   }
 }
 /* end of single room*/
+
 /* roomlist */
 .roomslist {
   padding: 5rem 0;
@@ -446,7 +449,6 @@ h6 {
   grid-row-gap: 2rem;
   grid-column-gap: 30px;
 }
-
 @media screen and (min-width: 776px) {
   .roomslist-center {
     width: 90vw;
@@ -459,7 +461,8 @@ h6 {
   }
 }
 /* end of roomlist */
-/*  rooms fitler*/
+
+/*  rooms filter*/
 .filter-container {
   padding: 5rem 0;
 }
@@ -510,4 +513,4 @@ h6 {
     max-width: 1170px;
   }
 }
-/* end of rooms fitler*/
+/* end of rooms filter*/
