@@ -20,7 +20,7 @@ class Navbar extends React.Component {
         <div className="nav-center">
           <div className="nav-header">
             <Link to="/">
-              <img src={logo} alt="Logo Image" />
+              <img src={logo} alt="Logo" />
             </Link>
             <button className="nav-btn" onClick={this.handleToggle}>
               <FaAlignRight className="nav-icon" />
