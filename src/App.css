@@ -437,11 +437,11 @@ h6 {
 }
 /* end of single room*/
 
-/* roomlist */
-.roomslist {
+/* rooms list */
+.roomsList {
   padding: 5rem 0;
 }
-.roomslist-center {
+.roomsList-center {
   width: 80vw;
   margin: 0 auto;
   display: grid;
@@ -450,17 +450,17 @@ h6 {
   grid-column-gap: 30px;
 }
 @media screen and (min-width: 776px) {
-  .roomslist-center {
+  .roomsList-center {
     width: 90vw;
   }
 }
 @media screen and (min-width: 992px) {
-  .roomslist-center {
+  .roomsList-center {
     width: 95vw;
     max-width: 1170px;
   }
 }
-/* end of roomlist */
+/* end of roomsList */
 
 /*  rooms filter*/
 .filter-container {
